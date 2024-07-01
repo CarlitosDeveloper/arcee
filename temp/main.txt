@@ -1,0 +1,15 @@
+    pg_dump -h localhost -U your_user -d nameDB > backup.sql
+    
+    \! pg_dump -h localhost -U your_user -d nameDB > %USERPROFILE%\Desktop\nameDB_backup.sql
+
+    pg_dump -h localhost -U postgres -d arcee > arcee_backup.sql
+
+    \! pg_dump -h localhost -U postgres -d arcee > %USERPROFILE%\Desktop\arcee\backup\arcee_backup.sql
+
+echo "# arcee" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:LearnWithCarlitos/arcee.git
+git push -u origin main

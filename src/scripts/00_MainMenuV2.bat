@@ -6,11 +6,11 @@ set SERVER=localhost
 set DATABASE=arcee
 set PORT=5432
 set USERNAME=postgres
-set PASSWORD=2956939xD
+set PASSWORD=1234
 
 REM Ruta de PostgreSQL (Ajustar según instalación)
-set PSQL_PATH="C:\Program Files\PostgreSQL\15\bin\psql.exe"
-set PGDUMP_PATH="C:\Program Files\PostgreSQL\15\bin\pg_dump.exe"
+set PSQL_PATH="C:\Program Files\PostgreSQL\17\bin\psql.exe"
+set PGDUMP_PATH="C:\Program Files\PostgreSQL\17\bin\pg_dump.exe"
 
 REM Ruta de respaldo
 set BACKUP_PATH=src\backup\arcee_backup.sql

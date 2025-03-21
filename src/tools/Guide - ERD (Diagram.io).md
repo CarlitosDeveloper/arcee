@@ -2,7 +2,9 @@
 
 ---
 
-## **📊 Notas para Diagram.io - Modelado de Bases de Datos**  
+## **📊 Notas para Diagram.io - Modelado de Bases de Datos**
+
+- Apuntes para diagrama y modelar "bases de datos" en la plataforma `Diagram.io`
 
 ### **1️⃣ Tipos de Índices**  
 - `btree`, `hash` (PostgreSQL admite otros, pero estos son los más comunes).  
